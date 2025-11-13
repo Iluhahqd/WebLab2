@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Собрать ланч - Вкусная кухня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lunch.css">
+</head>
+<body>
+    <header>
+        <h1>Собрать ланч</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="lunch.html" id="active">Собрать ланч</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="soups">
+            <h2>Супы</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soup" alt="Борщ украинский">
+                    <p class="price">350 руб.</p>
+                    <p class="name">Борщ украинский</p>
+                    <p class="weight">350 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soup,chicken" alt="Куриный суп">
+                    <p class="price">280 руб.</p>
+                    <p class="name">Куриный суп с лапшой</p>
+                    <p class="weight">350 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soup,mushroom" alt="Грибной крем-суп">
+                    <p class="price">320 руб.</p>
+                    <p class="name">Грибной крем-суп</p>
+                    <p class="weight">300 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soup,fish" alt="Уха">
+                    <p class="price">380 руб.</p>
+                    <p class="name">Уха царская</p>
+                    <p class="weight">350 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soup,vegetable" alt="Овощной суп">
+                    <p class="price">260 руб.</p>
+                    <p class="name">Овощной суп-пюре</p>
+                    <p class="weight">300 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soup,meat" alt="Солянка">
+                    <p class="price">390 руб.</p>
+                    <p class="name">Солянка мясная</p>
+                    <p class="weight">350 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-dishes">
+            <h2>Главные блюда</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?steak" alt="Стейк">
+                    <p class="price">890 руб.</p>
+                    <p class="name">Стейк из говядины с овощами гриль</p>
+                    <p class="weight">350 г</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?pasta" alt="Паста">
+                    <p class="price">450 руб.</p>
+                    <p class="name">Паста карбонара</p>
+                    <p class="weight">300 г</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?salmon" alt="Лосось">
+                    <p class="price">750 руб.</p>
+                    <p class="name">Лосось на гриле с лимоном</p>
+                    <p class="weight">280 г</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?chicken" alt="Курица">
+                    <p class="price">420 руб.</p>
+                    <p class="name">Куриное филе в сливочном соусе</p>
+                    <p class="weight">320 г</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?dumplings" alt="Пельмени">
+                    <p class="price">380 руб.</p>
+                    <p class="name">Пельмени домашние</p>
+                    <p class="weight">350 г</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?risotto" alt="Ризотто">
+                    <p class="price">480 руб.</p>
+                    <p class="name">Ризотто с грибами</p>
+                    <p class="weight">300 г</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="drinks">
+            <h2>Напитки</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?coffee" alt="Кофе">
+                    <p class="price">180 руб.</p>
+                    <p class="name">Капучино</p>
+                    <p class="weight">250 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?tea" alt="Чай">
+                    <p class="price">150 руб.</p>
+                    <p class="name">Чай черный с бергамотом</p>
+                    <p class="weight">300 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?juice" alt="Сок">
+                    <p class="price">200 руб.</p>
+                    <p class="name">Апельсиновый фреш</p>
+                    <p class="weight">250 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?lemonade" alt="Лимонад">
+                    <p class="price">220 руб.</p>
+                    <p class="name">Домашний лимонад</p>
+                    <p class="weight">330 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?soda" alt="Газировка">
+                    <p class="price">120 руб.</p>
+                    <p class="name">Кола/Фанта/Спрайт</p>
+                    <p class="weight">330 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+                <div class="dish-card">
+                    <img src="https://source.unsplash.com/random/300x200/?water" alt="Вода">
+                    <p class="price">100 руб.</p>
+                    <p class="name">Минеральная вода</p>
+                    <p class="weight">500 мл</p>
+                    <button class="add-btn">Добавить</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacts">
+        <h2>Контактные данные</h2>
+        <p>г. Москва, ул. Поварская, д. 15</p>
+        <p>Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p>Email: <a href="mailto:info@vkusnaya-kuhnya.ru">info@vkusnaya-kuhnya.ru</a></p>
+        <p>Часы работы: ежедневно с 10:00 до 23:00</p>
+    </footer>
+</body>
+</html>
